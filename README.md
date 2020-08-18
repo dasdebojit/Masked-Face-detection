@@ -1,6 +1,6 @@
-# Masked-Face-Detection
+# Masked-Face-Recognition
 ## About the Project:
-<p> This project uses CNN with Trasnfer Learning to classify whether a face is masked or not. It uses RESNET-18 Backend with pretrained weights, and customized final layers for Binary Classification (Masked/ Not-Masked).
+<p> This project uses CNN with Transfer Learning to classify whether a face is masked or not. It uses RESNET-18 Backend with pretrained weights, and customized final layers for Binary Classification (Masked/ Not-Masked).
 </p>
 
 ## Languages/ Framework used:
