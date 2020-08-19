@@ -19,5 +19,4 @@
 ## Dataset
 RWMFD (Real World Masked Face Dataset) contains 5,000 masked faces of 525 people and 90,000 normal faces. For more information click <a href = "https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset" > <strong> here </strong></a>
 
-## Results:
-After training the model for 10 epochs, the best model provided a loss of 0.027 and a very good validation accuracy. On evaluating it on the test sets, an overall accuracy of 0.99 is achieved.
+
