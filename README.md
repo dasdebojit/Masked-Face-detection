@@ -3,9 +3,10 @@
 <p> This project uses CNN with Transfer Learning to classify whether a face is masked or not. It uses RESNET-18 Backend with pretrained weights, and customized final layers for Binary Classification (Masked/ Not-Masked).
 </p>
 
-## Languages/ Framework used:
+## Languages/ Tools used:
 <ul>
   <li> Python </li>
+  <li> Jupyter Notebook </li>
   <li> Pytorch </li>
 </ul>
 
