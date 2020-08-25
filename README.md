@@ -1,6 +1,6 @@
 # Masked-Face-Recognition
 ## About the Project:
-<p> This project uses CNN with Transfer Learning to classify whether a face is masked or not. It uses RESNET-18 Backend with pretrained weights, and customized final layers for Binary Classification (Masked/ Not-Masked).
+<p> This project uses CNN based Transfer Learning to classify whether a face is masked or not. It uses RESNET-18 Backend with pretrained weights, and customized final layers for Binary Classification (Masked/ Not-Masked).
 </p>
 
 ## Languages/ Tools used:
@@ -21,7 +21,8 @@
 ## Dataset
 RWMFD (Real World Masked Face Dataset)
 ## Inferences from dataset:
-Since the dataset didn't contain accurately cropped image consisting of just the face, face_recognition library was applied on the images, to get closeup cropped imgages.
+Since the dataset didn't contain accurately cropped image consisting of just the face, face_recognition library was applied on the images, to get closeup cropped images.
+<br><br>
 <strong> Some examples of closely cropped masked images </strong>
 <div><img src = "/Images/masked.png"></div>
 <br><br>
