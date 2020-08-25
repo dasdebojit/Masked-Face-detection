@@ -29,9 +29,9 @@ Since the dataset didn't contain accurately cropped image consisting of just the
 
 ## Training Results
 After training for 10 epochs the training loss graphs is as shown below:
-<img src = "/Images/train.jpg" />
+<img src = "/Images/training.jpg" />
 The validation accuracy is almost 94 % after 10 epochs.
-<img src = "/Images/valid.jpg" />
+<img src = "/Images/validation.jpg" />
 
 ## Testing Result
 After testing a total of around 150 images, the testing accuracy stands at 97% which can be inferred from the results shown below:
