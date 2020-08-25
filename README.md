@@ -22,17 +22,17 @@
 RWMFD (Real World Masked Face Dataset)
 ## Inferences from dataset:
 Since the dataset didn't contain accurately cropped image consisting of just the face, face_recognition library was applied on the images, to get closeup cropped imgages.
-### Some examples of closely cropped masked images
+<strong> Some examples of closely cropped masked images </strong>
 <div><img src = "/Images/masked.png"></div>
 <br><br>
-### Some examples of closely cropped unmasked images
+<strong> Some examples of closely cropped unmasked images </strong>
 <div><img src = "/Images/unmasked.png"></div>
 
 ## Training Results
 After training for 10 epochs the training loss graphs is as shown below:
 <div><img src = "/Images/training.png" ></div>
 <br><br>
-The validation accuracy is about 94 % after 10 epochs.
+The validation accuracy is about 97 % after 10 epochs.
 <div><img src = "/Images/validation.png" ></div>
 
 ## Testing Result
