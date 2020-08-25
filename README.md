@@ -15,9 +15,33 @@
   <li> OpenCV </li>
   <li> PILLOW </li>
   <li> Resnet-18 (Architecture + Weights) </li>
+  <li> Face_detection Library </li>
 </ul>
 
 ## Dataset
-RWMFD (Real World Masked Face Dataset) contains 5,000 masked faces of 525 people and 90,000 normal faces. For more information click <a href = "https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset" > <strong> here </strong></a>
+RWMFD (Real World Masked Face Dataset)
+## Inferences from dataset:
+Since the dataset didn't contain accurately cropped image consisting of just the face, face_recognition library was applied on the images, to get closeup cropped imgages.
+#### Some examples of closely cropped masked images
+<img src = "/Images/masked.jpg"/>
+#### Some examples of closely cropped unmasked images
+<img src = "/Images/unmasked.jpg"/>
+
+## Training Results
+After training for 10 epochs the training loss graphs is as shown below:
+<img src = "/Images/train.jpg" />
+The validation accuracy is almost 94 % after 10 epochs.
+<img src = "/Images/valid.jpg" />
+
+## Testing Result
+After testing a total of around 150 images, the testing accuracy stands at 97% which can be inferred from the results shown below:
+
+<img src = "/Images/result.jpg" />
+
+## Scopes of Improvement
+1. Since the dataset was small, using a large number of images might result in better accuracy.
+2. Since the model is dependent on face detection, greater occlusions in face due to mask might be the reason for incorrect prediction sometimes.
+3. Face detection module doesn't help identify skewed faces so accurately especially when the size of face is so small. 
+
 
 
