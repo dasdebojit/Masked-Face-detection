@@ -15,7 +15,7 @@
   <li> OpenCV </li>
   <li> PILLOW </li>
   <li> Resnet-18 (Architecture + Weights) </li>
-  <li> Face_detection Library </li>
+  <li> Face_recognition Library </li>
 </ul>
 
 ## Dataset
